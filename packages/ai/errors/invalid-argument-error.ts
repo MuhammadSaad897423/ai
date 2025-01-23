@@ -32,3 +32,4 @@ export class InvalidArgumentError extends AISDKError {
     return AISDKError.hasMarker(error, marker);
   }
 }
+private readonly [symbol] = true; // used in isInstance
